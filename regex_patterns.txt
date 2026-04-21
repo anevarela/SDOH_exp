@@ -1,0 +1,7 @@
+start_pattern = r"(?i)(social\s+history|soc\s+hx|family\s+history|social\/family\s+history)"
+stop_markers = [
+        r"physical\s+exam", r"pertinent\s+results", r"discharge\s+diagnosis", 
+        r"discharge\s+medications", r"medications\s+on\s+admission",
+        r"major\s+surgical", r"brief\s+hospital\s+course", r"chief\s+complaint",
+        r"review\s+of\s+systems", r"hpi", r"history\s+of\s+present\s+illness"
+    ]
